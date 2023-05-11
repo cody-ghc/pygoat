@@ -9,5 +9,8 @@
     "timeouts": {
             "perLanguage": 1,
             "perFile": 1
+    },
+    "scans": {
+        "engines": [1]
     }
 }
