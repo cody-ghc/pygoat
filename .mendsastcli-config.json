@@ -7,7 +7,7 @@
         "insecureSkipVerify": false
     },
     "timeout": {
-            "perLanguage": 500,
-            "perFile": 90
+            "perLanguage": 1,
+            "perFile": 1
     }
 }
