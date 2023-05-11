@@ -3,7 +3,9 @@
             "perLanguage": 1,
             "perFile": 1
     },
-    "scans": {
-        "engines": [5, 19, 21]
+    "reports": {
+        "generate": true,
+        "formats": [pdf],
+        "filename": "mendsastcli"
     }
 }
