@@ -1,3 +1,14 @@
 {
-  "settingsInheritedFrom": "cody-ghc/whitesource-config@main"
+  "settingsInheritedFrom": "cody-ghc/whitesource-config@main",
+  "scanSettingsSAST": {
+  "enableScan": true,
+  "scanPullRequests": true,
+  "incrementalScan": true,
+  "baseBranches": [],
+  "snippetSize": 10
+ },
+  "checkRunSettingsSAST": {
+  "checkRunConclusionLevel": "failure",
+  "severityThreshold": "high"
+ }
 }
