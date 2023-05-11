@@ -1,5 +1,6 @@
 {
   "settingsInheritedFrom": "cody-ghc/whitesource-config@main",
+  
   "scanSettingsSAST": {
   "enableScan": true,
   "scanPullRequests": true,
