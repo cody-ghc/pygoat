@@ -1,17 +1,36 @@
 {
-  "settingsInheritedFrom": "cody-ghc/whitesource-config@main",
-  
+  "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "baseBranches": ["main"],
+    "enableIaC": true,
+    "enableSAST": true
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff",
+    "useMendCheckNames": false
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW",
+    "issueType": "DEPENDENCY"
+  },
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+    }
+  },
   "scanSettingsSAST": {
-  "enableScan": true,
-  "scanPullRequests": true,
-  "incrementalScan": true,
-  "baseBranches": [],
-  "snippetSize": 10
- },
+    "enableScan": true,
+    "scanPullRequests": true,
+    "incrementalScan": true,
+    "baseBranches": [],
+    "snippetSize": 10
+  },
   "checkRunSettingsSAST": {
-  "checkRunConclusionLevel": "failure",
-  "severityThreshold": "high"
- }
+    "checkRunConclusionLevel": "failure",
+    "severityThreshold": "high"
+  }
 }
 
 
