@@ -2,10 +2,6 @@
     "timeouts": {
             "perLanguage": 1,
             "perFile": 1
-    },
-    "reports": {
-        "generate": true,
-        "formats": [pdf],
-        "filename": "mendsastcli"
     }
+  
 }
