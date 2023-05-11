@@ -1,0 +1,13 @@
+{
+    "connection": {
+        "token": "26c4e063d4500f382730a7b54fec01ecb4ccbc9e9f9a10c35da01e878549d65c",
+        "url": "https://saas.mend.io/sast",
+        "organizationId": "864c84e9-b1c8-45ee-9e67-2898f09a928f",
+        "timeoutMin": 10,
+        "insecureSkipVerify": false
+    },
+    "timeout": {
+            "perLanguage": 500,
+            "perFile": 90
+    }
+}
