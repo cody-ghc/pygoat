@@ -6,6 +6,7 @@
         "timeoutMin": 10,
         "insecureSkipVerify": false
     },
-    "maxFileSize": 2
+    "scans": {
+        "maxFileSize": 2
     }
 }
