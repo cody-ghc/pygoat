@@ -6,9 +6,11 @@
         "timeoutMin": 10,
         "insecureSkipVerify": false
     },
-    "timeouts": {
-            "perLanguage": 500,
-            "perFile": 90
+    "scans": {
+      "timeouts": {
+         "perLanguage": 1,
+         "perFile": 1
+      }
     },
     "reports": {
         "generate": true,
