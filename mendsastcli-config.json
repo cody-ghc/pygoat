@@ -8,7 +8,7 @@
     },
     "reports": {
         "generate": true,
-        "formats": [pdf],
+        "formats": [html, json, xml, pdf, csv, sarif],
         "filename": "mendsastcli",
         "level": "Summary"
     }
