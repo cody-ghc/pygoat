@@ -1,9 +1,5 @@
 {
-
-    "reports": {
-        "generate": true,
-        "formats": [html, json, xml, pdf, csv, sarif],
-        "filename": "mendsastcli",
-        "level": "summary"
+"scans": {
+        "snippetSize": 15
     }
 }
