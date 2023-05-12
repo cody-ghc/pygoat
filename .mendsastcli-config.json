@@ -7,7 +7,7 @@
         "insecureSkipVerify": false
     },
     "scans": {
-        "timeout": {
+        "timeouts": {
             "perFile": 1
         }
     }
