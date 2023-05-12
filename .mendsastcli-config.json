@@ -8,6 +8,7 @@
     },
     "scans": {
         "timeout": {
-         "perFile": 1
+            "perFile": 1
+        }
     }
 }
