@@ -15,6 +15,7 @@
     "reports": {
         "generate": true,
         "formats": [pdf],
-        "filename": "mendsastcli"
+        "filename": "mendsastcli",
+        "level": "Summary"
     }
 }
